@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 // import { StoreProvider, StoreContext } from '../../context/context'
+import ButtonStyle from './button.module.css'
 
 const LeftComponents = () => {
     const components = ["HOME", "ABOUT", "PRODUCTS", "CONTACT", "CART"]
@@ -12,7 +13,7 @@ const LeftComponents = () => {
                 let lower = "/" + compo.toLowerCase()
                 return (
                 <Link to = {lower} style={{}}>
-                    <button style = {{backgroundColor: "white",border: "none", margin: "30px", textDecoration: "none"}} key = {index}> {compo} </button>
+                    <button className={ButtonStyle.button} key = {index}> {compo} </button>
                 </Link>
                 )
             })}
