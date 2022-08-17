@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.img {
+    width: 38vw;
+    height: 60vh;
+    border-radius: 4px;
+    margin: 20px
+}
+
+.wrap {
+    margin: 20px;
+
+}
+
+.para {
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}

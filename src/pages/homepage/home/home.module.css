@@ -1,0 +1,15 @@
+.banner {
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    text-align: center;
+    font-size: 32px;
+}
+
+.para {
+    text-align: center;
+    font-size: 20px;
+}
